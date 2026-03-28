@@ -1,36 +1,44 @@
 # OSS_Project
-# Open Source Audit Project (MySQL)
+# Open Source Audit Project 
 
-A Linux-based academic project to study and analyze MySQL as an open-source software.  
-This project focuses on understanding its origin, license, working in a Linux system, and its role in the open-source ecosystem.
-
-The project also includes five shell scripts to demonstrate basic Linux commands and automation concepts as required in the course.
+Student Name: Raunak Joshi  
+Roll Number: 24BCE10967  
+Chosen Software: MySQL  
 
 ---
 
-✨ Features
+## 📌 Project Description
 
-Open Source Analysis  
-- Study of MySQL origin and purpose  
+This project is a Linux-based academic study of MySQL as an open-source software.  
+The aim is to understand its origin, licensing model, and how it works within a Linux environment.
+
+The project also includes five shell scripts that demonstrate basic Linux commands, system interaction, and automation concepts as required in the course.
+
+---
+
+## ✨ Features
+
+### Open Source Analysis
+- Study of MySQL origin and the problem it was created to solve  
 - Understanding of GPL license and software freedom  
 
-Linux Exploration  
-- Installation and service management of MySQL  
+### Linux Exploration
+- Installation and usage of MySQL on Linux  
 - Working with system directories, permissions, and logs  
 
-Shell Scripting  
-- 5 scripts demonstrating real Linux usage  
-- Covers system info, package checking, file analysis, and automation  
+### Shell Scripting
+- Five scripts demonstrating real Linux usage  
+- Covers system information, package checking, directory analysis, log processing, and automation  
 
-Report  
-- Covers Part A (Origin, License, Ethics)  
-- Part B (Linux footprint)  
-- Part C (Ecosystem)  
-- Part D (Comparison with proprietary software)  
+### Report
+- Part A: Origin, License, Ethics  
+- Part B: Linux Footprint  
+- Part C: Ecosystem  
+- Part D: Open Source vs Proprietary comparison  
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
 OSS_PROJECT/
 ├── README.md  
@@ -50,25 +58,27 @@ OSS_PROJECT/
 
 ---
 
-⚙️ Requirements
+## ⚙️ Requirements / Dependencies
 
 - Linux system (Ubuntu / WSL / Lab system)  
-- MySQL installed  
-- Basic command-line knowledge  
+- MySQL Server installed  
+- Bash shell  
+- Basic Linux utilities (grep, awk, cut, du, ls)  
 
 ---
 
-🚀 How to Run
+## 🚀 Steps to Run
 
-Using Terminal
+Step 1: Open terminal in Linux / WSL  
 
-# Go to scripts folder
-cd scripts
+Step 2: Navigate to scripts folder  
+cd OSS_Project/scripts  
 
-# Give permission
-chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
+Step 3: Give execute permission  
+chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh  
 
-# Run scripts
+Step 4: Run scripts  
+
 ./script1.sh  
 ./script2.sh  
 ./script3.sh  
@@ -77,34 +87,42 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 
 ---
 
-📖 Usage Guide
+## 📖 Script Description
 
-Script 1  
-Displays system information such as kernel version, user, home directory, uptime, date, and Linux distribution.
-
-Script 2  
-Checks whether MySQL is installed and prints basic details along with a short description.
-
-Script 3  
-Displays size, permissions, owner, and group of important system directories.
-
-Script 4  
-Analyzes a log file and counts how many times a keyword (like "error") appears.
-
-Script 5  
-Generates a small open-source manifesto based on user input and saves it to a text file.
+### Script 1 — System Identity Report
+Displays system information such as kernel version, logged-in user, home directory, uptime, date, and Linux distribution.
 
 ---
 
-🧪 Example Run
+### Script 2 — FOSS Package Inspector
+Checks whether MySQL is installed on the system, displays package details, and prints a short description using a case statement.
+
+---
+
+### Script 3 — Disk and Permission Auditor
+Loops through important system directories and shows their size, permissions, owner, and group details. Also checks MySQL configuration directory.
+
+---
+
+### Script 4 — Log File Analyzer
+Reads a log file, counts occurrences of a keyword (like "error"), and displays the last few matching lines.
+
+---
+
+### Script 5 — Open Source Manifesto Generator
+Takes user input and generates a personalized open-source statement, then saves it to a text file.
+
+---
+
+## 🧪 Example Run
 
 ./script4.sh /var/log/syslog error  
 
-This command checks how many times the word "error" appears in the system log and prints the last few matching lines.
+This command checks how many times the word "error" appears in the system log and prints the last matching lines.
 
 ---
 
-📜 Concepts Used
+## 📜 Concepts Used
 
 - Variables and command substitution  
 - if-else conditions  
@@ -115,18 +133,18 @@ This command checks how many times the word "error" appears in the system log an
 
 ---
 
-📦 Future Improvements
+## 📦 Future Improvements
 
-- Add more automation scripts  
-- Improve log analysis with advanced filters  
-- Integrate MySQL queries in scripts  
-- Create a simple interface for better usability  
+- Add more advanced automation scripts  
+- Improve log analysis with filters  
+- Integrate MySQL queries into scripts  
+- Build a simple interface for easier use  
 
 ---
 
-## Conclusion
+## 📌 Conclusion
 
-This project helped in understanding both the theoretical and practical aspects of open-source software.  
-Working with MySQL and Linux commands provided a better idea of how real systems operate.
+This project helped in understanding both theoretical and practical aspects of open-source software.  
+Working with MySQL and Linux commands provided a better understanding of real system operations.
 
-It also showed how open-source tools are not only free to use, but also open for learning, modification, and improvement.
+It also highlighted how open-source tools provide not only free access but also the freedom to learn, modify, and improve software.
