@@ -32,7 +32,7 @@ Report
 
 📂 Project Structure
 
-oss-audit-24BCE10967/
+OSS_PROJECT/
 ├── README.md  
 ├── report.pdf  
 ├── scripts/  
