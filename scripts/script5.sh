@@ -1,4 +1,3 @@
-  GNU nano 7.2                                                             script5.sh
 #!/bin/bash
 # Script 5: Open Source Manifesto Generator
 
