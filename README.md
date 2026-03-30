@@ -41,13 +41,13 @@ The project also includes five shell scripts that demonstrate basic Linux comman
 ## 📂 Project Structure
 
 OSS_PROJECT/
-├── README.md  
-├── scripts/  
-│   ├── script1.sh  
-│   ├── script2.sh  
-│   ├── script3.sh  
-│   ├── script4.sh  
-│   └── script5.sh    
+├── README.md
+├── scripts/
+│   ├── script1.sh
+│   ├── script2.sh
+│   ├── script3.sh
+│   ├── script4.sh
+│   └── script5.sh   
 
 ---
 
