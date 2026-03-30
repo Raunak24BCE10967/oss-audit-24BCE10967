@@ -42,19 +42,12 @@ The project also includes five shell scripts that demonstrate basic Linux comman
 
 OSS_PROJECT/
 ├── README.md  
-├── report.pdf  
 ├── scripts/  
 │   ├── script1.sh  
 │   ├── script2.sh  
 │   ├── script3.sh  
 │   ├── script4.sh  
-│   └── script5.sh  
-└── screenshots/  
-    ├── script1.png  
-    ├── script2.png  
-    ├── script3.png  
-    ├── script4.png  
-    └── script5.png  
+│   └── script5.sh    
 
 ---
 
@@ -69,20 +62,31 @@ OSS_PROJECT/
 
 ## 🚀 Steps to Run
 
-Step 1: Open terminal in Linux / WSL  
+### Step 1: Open terminal in Linux / WSL  
 
-Step 2: Navigate to scripts folder  
+### Step 2: Navigate to scripts folder  
 cd OSS_Project/scripts  
 
-Step 3: Give execute permission  
+### Step 3: Give execute permission  
 chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh  
 
-Step 4: Run scripts  
+---
 
+## ▶️ Run Each Script
+
+### Script 1 — System Identity Report  
 ./script1.sh  
+
+### Script 2 — FOSS Package Inspector  
 ./script2.sh  
+
+### Script 3 — Disk and Permission Auditor  
 ./script3.sh  
+
+### Script 4 — Log File Analyzer (requires arguments)  
 ./script4.sh /var/log/syslog error  
+
+### Script 5 — Open Source Manifesto Generator  
 ./script5.sh  
 
 ---
